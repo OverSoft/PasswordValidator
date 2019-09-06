@@ -31,4 +31,7 @@ const [valueIsValid, validationErrors] = validateInput(value, {
 });
 ```
 
+valueIsValid is a boolean indicating the value is validated or not
+validationErrors is an array of strings containing the errors that were generated during validation
+
 Alls validation requirements are optional, meaning if you don't pass (for example) maxLength, the value is not checked for a maximum length.
